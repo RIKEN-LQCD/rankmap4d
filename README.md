@@ -1,6 +1,7 @@
 # Generator of rankmap for 4-dim simulation such as LQCD
 
 Copyright(c) 2020-2023, Issaku Kanamori <kanamori-i@riken.jp>
+
 License: GPL v3
 
 ## Description
@@ -39,6 +40,7 @@ should be a permutation of (PP1,PP2,PP3) for node="...".
 
 ### example
 
+```
 // the process size: 4x3x4x2, the intra-node division is 1x1x2x2
 #PJM --rsc-list "node=4x3x2"
 mpirun ./rankmap_4d_lex 4 3 4 2 1 1 2 2
